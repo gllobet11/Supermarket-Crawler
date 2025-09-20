@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Entornos virtuales ---
+venv/
+.env/
+.venv/
+env/
+
+# --- Notebooks temporales ---
+.ipynb_checkpoints/
+
+# --- Datos generados / salidas ---
+Data/
+outputs/
+*.csv
+*.parquet
+*.xlsx
+
+# --- IDEs / Config ---
+.vscode/
+.idea/
+*.swp
