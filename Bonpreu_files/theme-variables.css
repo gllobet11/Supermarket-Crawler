@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+  --intent-primary-50: #e5eae6;
+  --intent-primary-100: #bfcac2;
+  --intent-primary-200: #94a89a;
+  --intent-primary-300: #698571;
+  --intent-primary-400: #496b53;
+  --intent-primary-600: #25492f;
+  --intent-primary-700: #1f4028;
+  --intent-primary-800: #193721;
+  --intent-primary-900: #0f2715;
+  --intent-primary: #2a5135;
+
+  --intent-secondary-50: #fbfbfb;
+  --intent-secondary-100: #f6f6f6;
+  --intent-secondary-200: #f1f1f1;
+  --intent-secondary-300: #ececec;
+  --intent-secondary-400: #e8e8e8;
+  --intent-secondary-600: #e0e0e0;
+  --intent-secondary-700: #dcdcdc;
+  --intent-secondary-800: #d8d8d8;
+  --intent-secondary-900: #d1d1d1;
+  --intent-secondary: #e4e4e4;
+
+  --intent-action-50: #fef6e5;
+  --intent-action-100: #fde8bf;
+  --intent-action-200: #fcda94;
+  --intent-action-300: #fbcb69;
+  --intent-action-400: #fac049;
+  --intent-action-600: #f9ae25;
+  --intent-action-700: #f8a51f;
+  --intent-action-800: #f79c19;
+  --intent-action-900: #f68d0f;
+  --intent-action: #fab52a;
+
+  --intent-promotion-50: #ffe6e0;
+  --intent-promotion-100: #ffc1b2;
+  --intent-promotion-200: #ff997f;
+  --intent-promotion-300: #ff704c;
+  --intent-promotion-400: #ff5126;
+  --intent-promotion-600: #ff2d00;
+  --intent-promotion-700: #ff2600;
+  --intent-promotion-800: #ff2000;
+  --intent-promotion-900: #ff1400;
+  --intent-promotion: #ff3300;
+
+  --intent-success-50: #f1f7ea;
+  --intent-success-100: #dceccb;
+  --intent-success-200: #c5e0a8;
+  --intent-success-300: #aed385;
+  --intent-success-400: #9dca6b;
+  --intent-success-600: #83ba4a;
+  --intent-success-700: #78b241;
+  --intent-success-800: #6eab38;
+  --intent-success-900: #5c9d28;
+  --intent-success: #8cc152;
+
+  --intent-warning-50: #fdf2e8;
+  --intent-warning-100: #fae0c6;
+  --intent-warning-200: #f7cca0;
+  --intent-warning-300: #f3b87a;
+  --intent-warning-400: #f1a95e;
+  --intent-warning-600: #ed923b;
+  --intent-warning-700: #ea8733;
+  --intent-warning-800: #e87d2b;
+  --intent-warning-900: #e36c1d;
+  --intent-warning: #ef9a42;
+
+  --intent-error-50: #f7e6e8;
+  --intent-error-100: #ecc2c7;
+  --intent-error-200: #df9aa2;
+  --intent-error-300: #d2717d;
+  --intent-error-400: #c95361;
+  --intent-error-600: #b92f3f;
+  --intent-error-700: #b12836;
+  --intent-error-800: #a9212e;
+  --intent-error-900: #9c151f;
+  --intent-error: #c03546;
+
+  --intent-content-50: #e6e6e6;
+  --intent-content-100: #c2c2c2;
+  --intent-content-200: #9a999a;
+  --intent-content-300: #727071;
+  --intent-content-400: #545253;
+  --intent-content-600: #302e2f;
+  --intent-content-700: #292728;
+  --intent-content-800: #222021;
+  --intent-content-900: #151415;
+  --intent-content: #363435;
+
+  --intent-contrast-50: #fff;
+  --intent-contrast-100: #fff;
+  --intent-contrast-200: #fff;
+  --intent-contrast-300: #fff;
+  --intent-contrast-400: #fff;
+  --intent-contrast-600: #fff;
+  --intent-contrast-700: #fff;
+  --intent-contrast-800: #fff;
+  --intent-contrast-900: #fff;
+  --intent-contrast: #fff;
+
+  /* Pre-calculated contrast colors */
+  --intent-primary-contrast: var(--intent-contrast);
+  --intent-primary-100-contrast: var(--intent-content);
+  --intent-primary-200-contrast: var(--intent-content);
+  --intent-primary-900-contrast: var(--intent-contrast);
+  --intent-secondary-contrast: var(--intent-content);
+  --intent-secondary-100-contrast: var(--intent-content);
+  --intent-secondary-200-contrast: var(--intent-content);
+  --intent-secondary-900-contrast: var(--intent-content);
+  --intent-action-contrast: var(--intent-content);
+  --intent-action-100-contrast: var(--intent-content);
+  --intent-action-200-contrast: var(--intent-content);
+  --intent-action-900-contrast: var(--intent-content);
+  --intent-promotion-contrast: var(--intent-contrast);
+  --intent-promotion-100-contrast: var(--intent-content);
+  --intent-promotion-200-contrast: var(--intent-content);
+  --intent-promotion-900-contrast: var(--intent-contrast);
+  --intent-success-contrast: var(--intent-content);
+  --intent-success-100-contrast: var(--intent-content);
+  --intent-success-200-contrast: var(--intent-content);
+  --intent-success-900-contrast: var(--intent-contrast);
+  --intent-warning-contrast: var(--intent-content);
+  --intent-warning-100-contrast: var(--intent-content);
+  --intent-warning-200-contrast: var(--intent-content);
+  --intent-warning-900-contrast: var(--intent-content);
+  --intent-error-contrast: var(--intent-contrast);
+  --intent-error-100-contrast: var(--intent-content);
+  --intent-error-200-contrast: var(--intent-content);
+  --intent-error-900-contrast: var(--intent-contrast);
+
+  --background-color: #f8f8f8;
+  --border-radius: 0.21428571428571427rem;
+  --font-family: 'Roboto', sans-serif;
+  --logo-default-height: 31;
+  --logo-default-width: 175;
+  --logo-small-height: 40;
+  --logo-small-width: 40;
+  --typography-error: #a01c31;
+  --typography-primary: #00210d;
+  --typography-promotion: #c72800;
+  --coupon-style: var(--typography-promotion);
+  --header-bottom-bar-background-color: var(--intent-contrast);
+  --header-top-bar-background-color: var(--intent-contrast);
+  --header-top-bar-background-color-contrast: var(--intent-content);
+  
+}
