@@ -13,7 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 # Path to your ChromeDriver
 CHROMEDRIVER_PATH = (
-    r"C:\Users\gerar\Desktop\random\web-scraping\Supermercats\drivers\chromedriver.exe"
+    r""# FILL THIS!
 )
 
 # Accept URL from command line
