@@ -7,7 +7,7 @@ import re
 import sys
 import time
 from datetime import datetime
-from urllib.parse import unquote, urlparsefPA
+from urllib.parse import unquote, urlparse
 
 import pandas as pd
 import undetected_chromedriver as uc
